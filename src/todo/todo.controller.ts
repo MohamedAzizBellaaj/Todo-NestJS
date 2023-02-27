@@ -1,7 +1,7 @@
-import { Todo } from './todo.model';
-import { TodoDTO } from './todo.addDTO';
+import { Todo } from './models/todo.model';
+import { TodoDTO } from './dto/todo.addDTO';
 import { TodoService } from './todo.service';
-import { UpdateDTO } from './todo.updateDTO';
+import { UpdateDTO } from './dto/todo.updateDTO';
 import {
   Body,
   Controller,
